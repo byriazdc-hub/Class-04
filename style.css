@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    height: 500px;
+    width: 800px;
+    background: #2600ff;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+.angola{
+    height: 120px;
+    width: 180px;
+    background: #000000;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.angola h1 {
+    position: relative;
+    bottom: -68px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.angola-red{
+    height: 50%;
+    background: red;
+    position: relative;
+}
+
+.angola-red img {
+    position: absolute;
+    width: 38%;
+    bottom: -31px;
+    left: 50px;
+}
+
+/* bahamas flag css */
+
+.bahamas{
+    height: 120px;
+    width: 180px;
+    background: #01aef0;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+.bahamas h1 {
+    position: relative;
+    bottom: -130px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.bahamas-yel{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+height: 33%;
+width: 100%;
+background:#fef200;
+}
+
+.bahamas-dark {
+    position: absolute;
+    background: #000;
+    clip-path: polygon(25% 0%, 67% 28%, 100% 50%, 56% 79%, 25% 100%, 25% 52%);
+    height: 100%;
+    width: 120px;
+    left: -30px;
+    top: 0;
+}
+
+
+ /* omar flag */
+
+.oman{
+    height: 120px;
+    width: 180px;
+    background: #e44b2b;
+    position: absolute;
+    bottom:10px;
+    right:10px;
+}
+
+.oman h1 {
+    position: relative;
+    top: -38px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.omar-green{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 33%;
+    background: green;
+    width: 60%;
+
+}
+.omar-white{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 33%;
+    background: white;
+    width: 60%;
+
+}
+
+
+.oman img {
+    position: absolute;
+    top: -4px;
+    left: 13px;
+    width: 26%;
+    color: white;
+}
+
+
+
+.panama{
+    height: 120px;
+    width: 180px;
+    background: white;
+    position: absolute;
+    bottom:10px;
+    left:10px;
+}
+
+.panama h1 {
+    position: relative;
+    top: -38px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.panama-red{
+    height: 50%;
+    width: 50%;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.panama-sky{
+    height: 50%;
+    width: 50%;
+    background: #0065b3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.red-star {
+    position: relative;
+    top: 16px;
+    right: -118px;
+    height: 30px;
+    width: 30px;
+    background: red;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.sky-star {
+    position: relative;
+    top: 16px;
+    right: 61px;
+    height: 30px;
+    width: 30px;
+    background: #0065b3;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
